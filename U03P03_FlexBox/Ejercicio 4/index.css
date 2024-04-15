@@ -1,0 +1,13 @@
+ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+ul li
+{
+    background-color: rgba(193,219,210,1.00);
+    display: block;
+    padding: 300px;
+    color: black;
+    font-family: sans-serif;
+}

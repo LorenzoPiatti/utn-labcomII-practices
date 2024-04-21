@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+}
+li{
+    list-style-type: none;
+}
+.contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid blueviolet;
+    width: 300px;
+    background-color: rgb(233, 233, 233);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.navegacion{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0;
+}
+.usuario{
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div li img{
+    border-radius: 50%;
+}
+div ul li:hover{
+    background-color: #F7F2FF;
+    color: #995BED;
+}
+div ul li{
+    padding: 15px;
+}

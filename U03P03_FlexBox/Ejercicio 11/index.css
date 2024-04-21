@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(105, 205, 238);
+}
+.container{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 5px 5px 0px;
+    border-bottom: 1px solid lightgrey;
+}
+li{
+    display: flex;
+    list-style-type: none;
+}
+.lista-contenido{
+    flex-grow: 1;
+    padding-left: 10px;
+}
+.lista-imagen{
+    flex-shrink: 0;
+}
+li:hover{
+    background-color: rgb(233, 233, 233);
+}
+li div p{
+    color: rgb(153, 153, 153);
+}
+li div img{
+    border-radius: 50%;
+}

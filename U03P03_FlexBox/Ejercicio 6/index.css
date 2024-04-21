@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    height: 100vh;
+    font-family: sans-serif;
+    gap: 2px;
+}
+.columna-izquierda{
+    background-color: rgb(63, 200, 224);
+    flex: 1;
+}
+.columna-derecha{
+    background-color: rgb(101, 196, 109);
+    flex: 8;
+}
+ul{
+    list-style-type: none;
+}
+.columna-izquierda ul li{
+    border-bottom: 1px solid grey;
+}
+ul li a:link{
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    display:block;
+}

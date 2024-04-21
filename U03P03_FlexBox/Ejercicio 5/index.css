@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    padding: 12px 24px;
+    height: 100vh;
+}
+.columna-izquierda{
+    background-color: rgb(127, 69, 202);
+    flex: 1;
+}
+.columna-derecha{
+    background-color: rgb(194, 75, 188);
+    flex: 4;
+}
+ul{
+    list-style-type: none;
+}

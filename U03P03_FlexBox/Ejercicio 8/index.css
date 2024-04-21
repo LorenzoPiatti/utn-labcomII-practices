@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.tarjeta{
+    display: flex;
+    font-family: sans-serif;
+    background-color: black;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px 0px;
+    width: 200px;
+}
+.titulo{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+.cuerpo{
+    background-color: white;
+    height: 150px;
+    padding: 10px;
+}
+.pie{
+    display: flex;
+    background-color: grey;
+    color: white;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}

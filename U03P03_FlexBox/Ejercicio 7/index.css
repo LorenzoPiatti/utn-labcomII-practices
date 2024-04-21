@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px 0px lightgrey;
+    width: 300px;
+}
+.presentacion{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 300px;
+    justify-content: center;
+}
+.contenido{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+}
+.pie{
+    display: flex;
+    background-color: grey;
+    color: white;
+    width: 300px;
+    justify-content: center;
+    
+}
